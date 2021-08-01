@@ -1,0 +1,67 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react-native-vector-icons
+
+PATH: 
+  C:\Users\USER\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\USER\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin;C:\Python39\Scripts;C:\Python39;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Users\USER\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Java\jdk-15.0.2;C:\Program Files\Git\cmd;C:\Users\USER\AppData\Local\Microsoft\WindowsApps;C:\Users\USER\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Users\USER\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\USER\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Java\jdk-15.0.2;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ECONNABORTED 104.16.18.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+npm manifest: 
+  {
+    "name": "mp3",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+      "android": "react-native run-android",
+      "ios": "react-native run-ios",
+      "start": "react-native start",
+      "test": "jest",
+      "lint": "eslint ."
+    },
+    "dependencies": {
+      "@react-native-community/masked-view": "^0.1.11",
+      "@react-navigation/native": "^5.9.4",
+      "@react-navigation/stack": "^5.14.5",
+      "npm-install-peers": "^1.2.2",
+      "react": "17.0.1",
+      "react-native": "0.64.1",
+      "react-native-fast-storage": "^0.1.5",
+      "react-native-gesture-handler": "^1.10.3",
+      "react-native-get-music-files": "^2.1.0",
+      "react-native-paper": "^4.8.1",
+      "react-native-reanimated": "^2.1.0",
+      "react-native-safe-area-context": "^3.2.0",
+      "react-native-screens": "^3.2.0",
+      "react-native-track-player": "^1.2.7"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9",
+      "@babel/runtime": "^7.12.5",
+      "@react-native-community/eslint-config": "^2.0.0",
+      "babel-jest": "^26.6.3",
+      "eslint": "7.14.0",
+      "jest": "^26.6.3",
+      "metro-react-native-babel-preset": "^0.64.0",
+      "react-test-renderer": "17.0.1"
+    },
+    "jest": {
+      "preset": "react-native"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
