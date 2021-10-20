@@ -24,6 +24,7 @@
    TextInput,
    PermissionsAndroid,
    ActivityIndicator,
+  //  VirtualizedList,
    FlatList
  } from 'react-native';
  
